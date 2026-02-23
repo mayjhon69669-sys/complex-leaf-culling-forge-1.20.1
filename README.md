@@ -73,7 +73,7 @@ All culling work happens during chunk mesh building on Sodium's worker threads -
 ## Building from source
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_HERE/complex-leaf-culling
+git clone https://github.com/ItsThatNova/complex-leaf-culling
 cd complex-leaf-culling
 
 # Place sodium-fabric-0.6.x+mc1.21.1.jar in libs/
