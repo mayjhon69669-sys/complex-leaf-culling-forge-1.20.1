@@ -1,0 +1,8 @@
+Place the following jars in this folder before running ./gradlew build:
+
+  sodium-fabric-0.6.13+mc1.21.1.jar
+    → Copy from your mods folder: D:\Minecraft Mods\1.21.1 Mods\sodium-fabric-0.6.13+mc1.21.1.jar
+    → Required for: Sodium block-level culling mixin (MixinSodiumBlockRenderer)
+    → NOT bundled into the output jar — only used at compile time
+
+If you upgrade Sodium, update the filename glob in build.gradle accordingly.

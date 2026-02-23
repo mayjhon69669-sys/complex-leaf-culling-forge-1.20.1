@@ -1,0 +1,4 @@
+{
+  "modmenu.nameTranslation.complexleafculling": "Complex Leaf Culling",
+  "modmenu.descriptionTranslation.complexleafculling": "Multi-tier leaf culling for Sodium — block cancellation, pass demotion, and face culling for dense modded forests."
+}

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.clc.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "MixinAbstractBlockState",
+    "MixinBlockModelRenderer",
+    "MixinWorldRenderer",
+    "sodium.MixinSodiumBlockRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

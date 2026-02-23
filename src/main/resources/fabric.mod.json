@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "complexleafculling",
+  "version": "${version}",
+  "name": "Complex Leaf Culling",
+  "description": "Multi-tier leaf culling for Sodium — block cancellation, pass demotion, and face culling for dense modded forests (WWOO, etc.).",
+  "authors": ["ItsThatNova"],
+  "contact": {
+    "sources": "https://github.com/itsthatnova/complex-leaf-culling",
+    "issues": "https://github.com/itsthatnova/complex-leaf-culling/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/complexleafculling/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main":    ["dev.clc.ComplexLeafCulling"],
+    "client":  ["dev.clc.ComplexLeafCullingClient"],
+    "modmenu": ["dev.clc.compat.ModMenuIntegration"]
+  },
+  "mixins": ["complexleafculling.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "sodium": "*"
+  },
+  "suggests": {
+    "iris": "*",
+    "modmenu": "*"
+  }
+}
