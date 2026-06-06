@@ -17,15 +17,15 @@ Leaf blocks on the edge of a canopy that partially qualify (one neighbour below 
 
 ## Requirements
 
-- Minecraft 1.21.1
-- Fabric Loader >= 0.16.0
-- Fabric API
-- [Sodium](https://modrinth.com/mod/sodium)
+- Minecraft 1.20.1
+
+
+
 
 ## Recommended
 
-- [Iris Shaders](https://modrinth.com/mod/iris) - Tier B pass demotion gives the most visible benefit with shaders active
-- [ModMenu](https://modrinth.com/mod/modmenu) - provides access to the in-game config screen
+- [oculus](https://modrinth.com/mod/oculus) - Tier B pass demotion gives the most visible benefit with shaders active-
+- [better modlist] (https://modrinth.com/mod/better-modlist) - provides access to the in-game config screen
 
 ## Configuration
 
@@ -56,8 +56,7 @@ Open the config screen via ModMenu, or use the `/clc` command in-game:
 ## Compatibility
 
 | Mod | Status |
-|---|---|
-| Sodium 0.6.x | Required |
+
 | Iris | Full compatibility, Tier B most effective here |
 | Distant Horizons | No interaction (DH handles its own LOD geometry) |
 | C2ME | Compatible |
